@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>公开课 | 『数学建模协会』</title>
+    <link>https://example.com/tags/%E5%85%AC%E5%BC%80%E8%AF%BE/</link>
+      <atom:link href="https://example.com/tags/%E5%85%AC%E5%BC%80%E8%AF%BE/index.xml" rel="self" type="application/rss+xml" />
+    <description>公开课</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© 2010-2022 本站版权所有 [鄂ICP备05113319号](https://beian.miit.gov.cn/)</copyright><lastBuildDate>Thu, 24 Aug 2023 19:00:00 +0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>公开课</title>
+      <link>https://example.com/tags/%E5%85%AC%E5%BC%80%E8%AF%BE/</link>
+    </image>
+    
+    <item>
+      <title>北太天元数模培训公开课</title>
+      <link>https://example.com/talk/%E5%8C%97%E5%A4%AA%E5%A4%A9%E5%85%83%E6%95%B0%E6%A8%A1%E5%9F%B9%E8%AE%AD%E5%85%AC%E5%BC%80%E8%AF%BE/</link>
+      <pubDate>Thu, 24 Aug 2023 19:00:00 +0800</pubDate>
+      <guid>https://example.com/talk/%E5%8C%97%E5%A4%AA%E5%A4%A9%E5%85%83%E6%95%B0%E6%A8%A1%E5%9F%B9%E8%AE%AD%E5%85%AC%E5%BC%80%E8%AF%BE/</guid>
+      <description>&lt;h4 id=&#34;000000-005508-北太天元使用于数据案例&#34;&gt;00:00:00-00:55:08 北太天元使用于数据案例&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;高兆坤 北太振寰研发工程师&lt;br&gt;
+梁雪宾 北太振寰应用工程师&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;005615-012211-赛前14天如何高效备战国赛&#34;&gt;00:56:15-01:22:11 赛前14天如何高效备战国赛&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;韩奥麟 2022北太天元数模之星&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;012215-013500-答疑与交流&#34;&gt;01:22:15-01:35:00 答疑与交流&lt;/h4&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://www.bilibili.com/video/BV16h4y1K7dB/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;点击即可传送&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

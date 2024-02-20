@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="简单说：数学建模就是三个人完成了一篇学术论文。 [^_^] ： 标准介绍 数">
+
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://example.com/courses/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%9F%BA%E7%A1%80%E5%8F%8A%E6%A8%A1%E5%9E%8B%E5%85%A5%E9%97%A8/example1/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu534237e774e5d014113af8955e6a2747_16737_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu534237e774e5d014113af8955e6a2747_16737_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://example.com/courses/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%9F%BA%E7%A1%80%E5%8F%8A%E6%A8%A1%E5%9E%8B%E5%85%A5%E9%97%A8/example1/">
+
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="『数学建模协会』">
+  <meta property="og:url" content="https://example.com/courses/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%9F%BA%E7%A1%80%E5%8F%8A%E6%A8%A1%E5%9E%8B%E5%85%A5%E9%97%A8/example1/">
+  <meta property="og:title" content="数学建模的面纱 | 『数学建模协会』">
+  <meta property="og:description" content="简单说：数学建模就是三个人完成了一篇学术论文。 [^_^] ： 标准介绍 数"><meta property="og:image" content="img/map[gravatar:%!s(bool=false) shape:circle]">
+  <meta property="twitter:image" content="img/map[gravatar:%!s(bool=false) shape:circle]"><meta property="og:locale" content="zh-Hans">
+  
+    
+      <meta property="article:published_time" content="2023-12-06T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2023-12-06T00:00:00&#43;01:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>数学建模的面纱 | 『数学建模协会』</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">『数学建模协会』</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">『数学建模协会』</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>文章</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>事件</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>活动</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>题库</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>更多</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>交流</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="搜索..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%9F%BA%E7%A1%80%E5%8F%8A%E6%A8%A1%E5%9E%8B%E5%85%A5%E9%97%A8/">数学建模基础入门</a>
+    <ul class="nav docs-sidenav">
+      
+      <li class="active">
+        <a href="/courses/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%9F%BA%E7%A1%80%E5%8F%8A%E6%A8%A1%E5%9E%8B%E5%85%A5%E9%97%A8/example1/">什么是数学建模</a>
+      </li>
+      
+      <li >
+        <a href="/courses/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%9F%BA%E7%A1%80%E5%8F%8A%E6%A8%A1%E5%9E%8B%E5%85%A5%E9%97%A8/example2/">图形绘制</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">在本页</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#标准介绍">标准介绍</a></li>
+    <li><a href="#那么到底该如何建模呢">那么到底该如何建模呢？</a>
+      <ul>
+        <li><a href="#摘要">摘要</a></li>
+        <li><a href="#问题重述">问题重述</a></li>
+        <li><a href="#模型假设和符号说明">模型假设和符号说明</a></li>
+        <li><a href="#模型的建立">模型的建立</a></li>
+        <li><a href="#模型的求解">模型的求解</a></li>
+        <li><a href="#模型的优缺点与改进方法">模型的优缺点与改进方法</a></li>
+        <li><a href="#参考文献">参考文献</a></li>
+        <li><a href="#附录">附录</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>数学建模的面纱</h1>
+
+          <div class="article-style">
+            <p>简单说：数学建模就是三个人完成了一篇学术论文。</p>
+<p>[^_^] ：</p>
+<h2 id="标准介绍">标准介绍</h2>
+<p>   数学建模是一种独特的思考方法，它运用数学的语言和方法，通过抽象和简化的方式，建立能近似刻画并解决实际问题的数学模型。这个过程可以看作是将实际问题转化为数学问题的过程。<br>
+   一个典型的数学模型包括几个主要组成部分：决策变量、环境变量、目标函数和约束条件。决策变量表示决策者可以控制的因素，即可控输入，是需要通过模型找到最优解的部分；环境变量则是影响决策的其他外部因素；目标函数是我们希望优化的目标；约束条件则是在求解过程中必须遵守的限制。<br>
+   数学模型是针对参照某种事物系统的特征或数量依存关系，采用数学语言，概括地或近似地表述出的一种数学结构。这种结构借助于数学符号刻画出来的某种系统的纯关系结构。</p>
+<h2 id="那么到底该如何建模呢">那么到底该如何建模呢？</h2>
+<p>   首先一个问题，可能有些同学参加了数学建模比赛，但是对于这个到底什么是模型还是比较模糊的。</p>
+<blockquote>
+<p>   我们以一个数学中的例子来类比建模过程。假设我们要研究函数的性质，我们可以打开一本高等数学教材的函数章节。</p>
+</blockquote>
+<ul>
+<li><font color=red size=3 face="黑体">理论基础</font></li>
+</ul>
+<blockquote>
+<p>   首先，教材会给出一些理论基础，比如函数的定义、性质和分类等。这些理论可能是以文字描述的形式呈现，告诉我们函数是什么以及有哪些常见的函数类型。</p>
+</blockquote>
+<ul>
+<li><font color=red size=3 face="黑体">推理过程</font></li>
+</ul>
+<blockquote>
+<p>   接下来，教材会给出一些公式和图像表格，用来描述不同类型函数的特点。比如，对于线性函数y = kx + b，教材会给出其斜率k和截距b的意义；对于二次函数y = ax² + bx + c，教材会给出其顶点和对称轴的位置等等。<br>
+   然后，教材会通过推导和分析这些公式和图像表格，来解释不同类型函数的变化规律。例如，当x增加时，线性函数的值也会相应地增加；当x接近于0时，指数函数的值可能会变得非常大等等。</p>
+</blockquote>
+<ul>
+<li><font color=red size=3 face="黑体">最终结论</font></li>
+</ul>
+<blockquote>
+<p>   最终，教材会给出一些结论和应用，帮助我们理解和运用函数。这些结论和应用可能是以文字描述的形式呈现，也可能是通过数学公式或图像表格来支持。<br>
+   整个过程就像是一个建模过程，从理论基础开始，通过推导和分析建立模型，最终得出结论和应用。无论是理论还是推导过程，都是以文字描述、数学公式或图像表格的形式展现出来的。</p>
+</blockquote>
+<p>   然后很多同学可能会觉得这个理论基础推导过程我都看不懂，那怎么办？没关系，大家在比赛的时候第一步就是先插文献，我们所有的一切都是以他人的成果来作为基础的。<br>
+   什么意思？就好比说我们要去开车，那你只需要学会怎么开车，但是你不需要学会造车、修车的原理，我们直接在别人的基础上来进行就可以了。<br>
+   三天时间以及我们的能力，也不可能说自己去发明一套模型，发明一个算法出来，这肯定是不现实的。那么看不懂原理没关系，只要你能把论文“编写”出来就足够了。然后我们写出来的这整篇论文很多的思路模型都是从参考文献和书籍里面搬过来的，那么我们要做的是什么？就是把这些现成的模型，现成的思路与我们题目当中的数据当中的问题结合起来就可以了。<br>
+所以这有一句名言</p>
+<blockquote>
+<p>All models are wrong.Some are useful(无论对错，管用即可。）</p>
+</blockquote>
+<p>我不管你这个模型到底是对与错的，你只要能够解决我的问题。<br>
+   我们最终要交的是一篇完整的数模论文，那么建模过程其实就是写论文的过程。一篇完整的数模论文主要包括几大部分：</p>
+<blockquote>
+<p><font color=red size=3 face="新宋体">摘要、问题重述、模型假设和符号说明、模型建立与求解、模型的优缺点与改进方法、参考文献和附录。</font></p>
+</blockquote>
+<p>其中最开始的就是一个摘要，这是最重要的部分，我们后面会再次强调。还有就是问题重塑，这个没关系，不太重要。然后模型假设和符号说明这当中是有一些技巧的。然后就是模型的建立与求解，这个是我们整篇论文最长的部分， 20 多页论文，大概十几页都是这一部分的。然后模型求解完了之后，还要有模型的优缺点分析，还有一些改进的方法，这一部分并不是很重要，因为很多同学可能连模型的建立、求解都搞不定，那你最起码得把这部分写完了，我们再考虑后面的事。然后最后还要需要的就是参考文献和附录，这个是学术论文所必需的东西，也就是一种格式的问题。</p>
+<h3 id="摘要">摘要</h3>
+<p>   那么最开始的摘要最重要，为什么说它最重要？就是评阅老师他看完摘要之后他就得知道你这个论文研究的是什么问题，用了什么方法，求得了什么结果，以及每一部分的大致步骤？每个老师评阅一篇论文的时间是非常短的，都是先看完摘要，然后如果你摘要里面写的模型和结果比较符合老师的预期，他才会去你正文里面去看相应的部分，然后其他的部分就直接扫一眼略过的就可以了，整篇论文他的评分就得出来了。<br>
+   如果说你的摘要都写不好，那老师第一印象就非常差，他也没有心情去详细的读你正文的内容了，所以这个摘要就是给人的第一印象，如果第一印象就差了，你整篇论文基本上与获奖无缘了。</p>
+<h3 id="问题重述">问题重述</h3>
+<p>   后面就是一个问题重述，这个不重要，我们把握题目简述一遍就可以了。注意不要直接的复制粘贴，否则的话有可能会被查重。那么怎么办？我先把它复制粘贴下来，然后把里面的一些语句该删的删，该改的改，我们把一些词语用自己的话描述一下就可以了，一些比较详细的描述，我们直接把它删掉，留一些梗概就可以了。</p>
+<h3 id="模型假设和符号说明">模型假设和符号说明</h3>
+<p>   然后就是模型假设和符号说明，这个模型假设如果你有一个好的假设，能够让你事半功倍。为什么这么说？<br>
+我们来看一个例子</p>
+<blockquote>
+<p>某一年的国赛体是关于太阳投影的问题，也就是说在太阳底下一个东西，它的影子有多长？那么影子长度大家要注意一点，太阳从东到西这个影子它的长度会有变化。但是还有一点，一年当中地球还绕着太阳公转，那这个公转对这个影子长度也有影响。你夏天影的长度和你冬天影的长度肯定不一样，但是一天当中地球公转对于影长的影响远远小于自转，一年是 365 天，绕一圈是 360 度，那么一天转的还不到 1 度。</p>
+</blockquote>
+<p>所以说我们在考虑一天当中影长的时候，那么公转对这个影长的影响远远小于自转，那么我们可以在模型假设当中说明，忽略掉公转对影长的影响。如果你不忽略掉，你把公转也考虑进去，那么一天当中它这个公式你可能会加了非常复杂的一些变量，会导致你这个模型更加的复杂，你解起来可能都解不出来。<br>
+   所以说我们做了一个合理的假设，就是忽略公转对影长的影响，为什么能忽略？因为公转对影长的影响远远小于自传，这就是我们的假设的理由，我们理由合情合理，所以就可以做出这个假设，使我们的模型大大的简化。</p>
+<p>   这就是一个好的假设，为什么能让你事半功倍。还有就是符号说明，这个这部分也不是很重要，我们把论文当中定义的一些重要符号列个表格说明一下就可以了。但是大家注意一些局部变量，比如说我们算法当中用了一个字母 a 作为来存储某个中间变量等等，这些东西就不要写在符号说明了，我们要写的是整篇论文会多次用到的一些变量。这就是模型假设与符号说明部分。</p>
+<h3 id="模型的建立">模型的建立</h3>
+<p>   接下来就是我们要写最主要的模型的建立了。</p>
+<blockquote>
+<p>模型的建立</p>
+<blockquote>
+<p>一组公式和对公式中每个变量的解释，这就是一个模型，这是最常见的形式。</p>
+</blockquote>
+</blockquote>
+<p>我们无论说是去看一些数模书籍，还是在网上的一些博客论坛，找到了一些讲建模的东西，基本上都是以公式的形式来表达的，因为我们毕竟是数学，建模公式就是数学的语言。那我们建模之前先查阅资料，看着资料，用自己的话复述一个简单的模型。<br>
+   什么叫复述？别人已经写好了，资料里边已经有了，我们把它描述一遍，当然这个模型一定是跟我们题目有关的，但是你最开始复述的可能就是一个非常简单的忽略掉很多影响因素的一个模型，然后我们再根据题目中的一些条件，再一步一步的去修改模型。<br>
+   大家注意最开始是简单的模型，然后我们再去修改模型，这是一步一步来的，千万不要想着我一开始建一个多么完美的模型，那是不现实的。最终我们一定要把题目中的变量带入模型当中，因为你在资料当中搬过来的，它可能是资料当中解决自己问题的，那么我们在做比赛的时候，需要把比赛题目当中的变量带进去。这就是模型的建立，我们在他人的基础上来写出来模型。</p>
+<p>   那我们可以看到底这个模型写出来是什么样？就比如说这是资料上截图出来的</p>
+<p><img src="/img/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%9A%84%E9%9D%A2%E7%BA%B11.1.png" alt="资料1"></p>
+<p>我们要求两个指定顶点，最短路径，我们写出了一段文字描述，然后邻接矩阵写出一套公式，下面再来一段话，再来一套公式，这个模型就算建完了。<br>
+   然后我们要做的就必须得说清楚，你这个决策变量是谁？我们题目当中所设的$X_{ij}$对应的是谁？它的实际意义是什么？然后这个弧长到底意味着什么？我们要做的就是解释清楚这些变量，把这一段搬到你论文里面，把每一个符号结合题目说清楚，这个模型就算建完了。<br>
+   当然这是最基础的模型，后期可能还会再改进，这也就是说我们所说的根据题目中的条件一步一步去修改它，然后就是模型的求解，我们所建立了一个模型之后，再去查资料，看到常用的算法，然后我们可以用 matlab 或者是其他的语言都可以去编程求解出来结果。</p>
+<h3 id="模型的求解">模型的求解</h3>
+<p>   那么这个求解过程呢？我们可以把资料上用自己的话复述一遍就可以了。我们求解过程是编程用的，写的代码是需要放到附录里的，但是这个代码它的一些原理思路我们还是要在正文当中所写出来的。比如说某个算法求解过程，我们可以用这个小黑点，或者说用数字标号 123 列出第一步、第二步、第三步都可以描述一下，但是需要注意的时候，我们从资料搬过来的必须得修改，我们得根据题目解释清楚。例如说这个算法当中有一个从起始点开始，那你这个起始点在我这道题目当中是什么呢？还有这个算法里面这个节点在本题当中的实际意义是什么呢？我们都需要写清楚。<br>
+   这样一来我们在模型的求解，你无论说是把资料的搬过来，然后再自己修改，这其实写着写着很多也就已经写出来了，我们再加一些表格，加一些图片，一个图片可能就占了半页，那这样一来其实写出一个十几页、 二十页的论文并不难，这就是我们一个求解的过程。还有一点需要强调的就是我们一道大题，一道赛题可能有很多小问，并不是说针对题目中每一问都要建立一个模型，这一点大家要注意。可能很多小白以为每一问我都得建立一个，否则的话看起来不完整，这个是完全没必要的。如果每个小问有相似性的话，比如说仅仅是增加了一些约束条件，那么完全可以全文建立一个模型，然后每一小问我对它进行改进。</p>
+<p><img src="/img/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E7%9A%84%E9%9D%A2%E7%BA%B11.2.png" alt="资料2"></p>
+<p>   例如这是一个数模比赛的题目，大家看这个问题一和问题二，它这个文字描述基本上都是差不多的，只不过当中第一问说是对五种卷料的要求，第二问是对所有的订单的要求，那么完全可以在第一问的基础上我们对它带来一些改进，而不需要说从头开始建立一个新的模型，这就是针对不同小问我们需要注意的一件事。</p>
+<h3 id="模型的优缺点与改进方法">模型的优缺点与改进方法</h3>
+<p>然后我们写完模型的建立与求解之后，可以再写一部分就是模型的优缺点与改进办法。大家注意这一部分不是必须的，在最优化问题当中会有一部分叫做灵敏度检验，然后有些同学看到这个，有些资料或者网上视频会说这个灵敏度检验特别重要，一定要写，但是最优化问题当中才会用到的。并不是说所有的数学建模都会用到灵敏度检验，有同学可能就在这绕圈了，所以说这一部分不是必须的，大家必须根据题目来写，而且在学会最优化问题的一些模型之前，你是没有办法真正理解灵敏度检验的，所以说大家一定不要舍本逐末，我们要做的就是把模型建好求解对，其他的一些优缺点还有改进方法以及什么什么检验，那都不是必须的，你有的话肯定更好，但是前提是你得把模型给建好和求好，所以说这一部分不是必须的。我们简单的分析一下这个优缺点，如果能改进的话你就可以改进，没有改进方法也可以不写。</p>
+<h3 id="参考文献">参考文献</h3>
+<p>   我们可以结合查到文献，分析一下正文中的模型常用在什么问题，除了我们这次比赛所解决的问题，我们这个模型可能还能解决其他的问题，可以在这一部分写一写。然后我们这种其他问题又与本文所求解的问题又有何区别？我们这个模型到底好在哪？这就是我们写这个优缺点和改进方法的一个办法。<br>
+   那么接下来一部分就是参考文献，这个有一点需要注意就是格式一定要规范，这个格式我们大家不需要自己写，我们去知网上搜到这个参考文献之后，整个搜索结果右侧有一个引用按钮，这当中有各种格式的引用文，我们比赛只需要用第一种国标的就可以了，我们把这个东西复制粘贴到你论文当中就行了。<br>
+   然后这个参考文献它前面是有个标号的，[1]、[2]、[3]这种我们需要在正文当中你引用的部分弄一个右上标，也标上相应的[1]、[2]、[3]，
+<a href="https://zhuanlan.zhihu.com/p/663376260" target="_blank" rel="noopener">word上下标教程。</a></p>
+<h3 id="附录">附录</h3>
+<p>   最后就是附录，一般放的就是正文中求解用来的代码，大家一定要注意，我们在网上可能能用到一些代码，这些代码可能能够直接解决我们的问题，但是即使能够直接用，也千万不要直接的复制粘贴，我们一定要把代码当中的变量名换一换就可以了，比如说它变量名写的是a，你把它改成c；变量当中写的是s，你给它改成 j 就可以了。千万不要图省事，我们直接复制粘贴完事了，因为之前出现过国赛当中，在省内被推到国奖了，结果查重发现代码是复制的，那么直接就被取消获奖，并且全网通报批评，大家想一想，他已经被从省内推到国奖了，就说明它的模型写的还是很好，结果因为附录是抄的而导致没有获奖，这是非常可惜的，大家一定要注意这一点。</p>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">下一页</div>
+    <a href="/courses/%E6%95%B0%E5%AD%A6%E5%BB%BA%E6%A8%A1%E5%9F%BA%E7%A1%80%E5%8F%8A%E6%A8%A1%E5%9E%8B%E5%85%A5%E9%97%A8/example2/" rel="prev">几何图形的绘制方法</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>最近更新于 2023-12-06</p>
+
+          
+
+
+
+
+
+  
+  
+
+<p class="edit-page">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses%5c%e6%95%b0%e5%ad%a6%e5%bb%ba%e6%a8%a1%e5%9f%ba%e7%a1%80%e5%8f%8a%e6%a8%a1%e5%9e%8b%e5%85%a5%e9%97%a8%5cexample1.md">
+    <i class="fas fa-pen pr-2"></i>编辑本页
+  </a>
+</p>
+
+
+
+
+          
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2010-2022 本站版权所有 
+<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">鄂ICP备05113319号</a> &middot; 
+
+
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"没有找到结果","placeholder":"搜索...","results":"搜索结果"};
+      const content_type = {
+        'post': "文章",
+        'project': "项目",
+        'publication' : "出版物",
+        'talk' : "演讲"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4979a4733046a588a29a8a2628ea43b5.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

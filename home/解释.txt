@@ -1,0 +1,21 @@
+accomplishments  === 外部
+
+contact === 收件箱
+
+demo === 一切伟大行动和思想都有一个微不足道的开始。
+
+experience === 计划阶段
+
+ featured ===  展示-题库
+
+posts === 最近文章
+
+projects === 事件
+
+publications === 题库
+
+skills === 技能
+
+tags === 热门话题
+
+talks === 最近活动

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>入门教程 | 『数学建模协会』</title>
+    <link>https://example.com/tags/%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</link>
+      <atom:link href="https://example.com/tags/%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <description>入门教程</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© 2010-2022 本站版权所有 [鄂ICP备05113319号](https://beian.miit.gov.cn/)</copyright><lastBuildDate>Tue, 14 Nov 2023 20:57:20 +0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>入门教程</title>
+      <link>https://example.com/tags/%E5%85%A5%E9%97%A8%E6%95%99%E7%A8%8B/</link>
+    </image>
+    
+    <item>
+      <title>入门数学问题</title>
+      <link>https://example.com/post/%E5%85%A5%E9%97%A8%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Tue, 14 Nov 2023 20:57:20 +0800</pubDate>
+      <guid>https://example.com/post/%E5%85%A5%E9%97%A8%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/</guid>
+      <description>&lt;h3 id=&#34;鸡兔同笼&#34;&gt;鸡兔同笼&lt;/h3&gt;
+&lt;p&gt;鸡兔同笼，共35只头，94只脚，问鸡兔各多少？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Python 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;heads = 35  # 头的数量
+feet = 94   # 脚的数量
+
+for chickens in range(feet//2 + 1):
+   total_feet = chickens * 2 + (heads - chickens) * 4
+   if total_feet == feet:
+       print(f&amp;quot;鸡的数量：{chickens}&amp;quot;)
+       print(f&amp;quot;兔子的数量：{(heads - chickens)}&amp;quot;)
+       break
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这段代码首先定义了头的数量（heads）和脚的数量（feet）。然后，我们使用一个for循环来枚举鸡的数量，其中鸡的数量不能超过头的数量。在循环内部，我们计算鸡和兔子的总脚数（total_feet），如果总脚数等于脚的数量，就输出鸡和兔子的数量，并跳出循环。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MATLAB 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;heads = 35; % 头的数量
+feet = 94; % 脚的数量
+
+for chickens in range(feet/2+1):
+   total_feet = chickens*2 + (heads - chickens)*4;
+   if total_feet == feet
+       fprintf(&#39;鸡的数量：%d\n兔子的数量：%d\n&#39;, chickens, heads-chickens);
+       break;
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;我们首先定义了头的数量（heads）和脚的数量（feet）。然后，我们使用一个for循环来枚举鸡的数量，其中鸡的数量不能超过头的数量。在循环内部，我们计算鸡和兔子的总脚数（total_feet），如果总脚数等于脚的数量，就输出鸡和兔子的数量，并跳出循环。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Go 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;package main
+
+import (
+    &amp;quot;bufio&amp;quot;
+    &amp;quot;fmt&amp;quot;
+    &amp;quot;os&amp;quot;
+)
+
+func main() 
+{
+    reader := bufio.NewReader(os.Stdin)
+    fmt.Print(&amp;quot;请输入头数：&amp;quot;)
+    text, _ := reader.ReadString(&#39;\n&#39;)
+    heads, _ := strconv.Atoi(text[:len(text)-1])
+    fmt.Print(&amp;quot;请输入脚数：&amp;quot;)
+    text, _ = reader.ReadString(&#39;\n&#39;)
+    feet, _ := strconv.Atoi(text[:len(text)-1])
+    chickens, rabbits := solveChickenRabbitProblem(heads, feet)
+    fmt.Printf(&amp;quot;鸡的数量：%d\n兔的数量：%d\n&amp;quot;, chickens, rabbits)
+}
+
+func solveChickenRabbitProblem(heads, feet int) (chickens, rabbits int) 
+{
+    for chickens &amp;lt; heads &amp;amp;&amp;amp; (chickens+rabbits)*2 &amp;lt;= feet 
+    {
+        chickens++
+        rabbits = heads - chickens
+    }
+    return
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;百钱百鸡&#34;&gt;百钱百鸡&lt;/h3&gt;
+&lt;p&gt;100元购买100只鸡，公鸡5元一只，母鸡3元一只，小鸡1元三只，如果花完100元，最后能买回多少只公鸡、母鸡、小鸡？&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Python 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;price_chickens = 100  # 100元
+total_chickens = 100  # 购买100只鸡
+
+# 假设公鸡的数量为x，母鸡的数量为y，小鸡的数量为z
+# 则有：
+# x * 5 + y * 3 + z * 1.0/3 = price_chickens
+# x + y + z = total_chickens
+
+# 解这个方程组得到：
+x = int((price_chickens - total_chickens) / 5)
+y = int((price_chickens - total_chickens) / 3)
+z = int(total_chickens - x - y)
+
+print(&amp;quot;公鸡：&amp;quot;, x, &amp;quot;只&amp;quot;)
+print(&amp;quot;母鸡：&amp;quot;, y, &amp;quot;只&amp;quot;)
+print(&amp;quot;小鸡：&amp;quot;, z, &amp;quot;只&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MATLAB 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;price_chickens = 100;  % 100元
+total_chickens = 100;  % 购买100只鸡
+
+% 假设公鸡的数量为x，母鸡的数量为y，小鸡的数量为z
+% 则有：
+% x * 5 + y * 3 + z * 1.0/3 = price_chickens
+% x + y + z = total_chickens
+
+% 解这个方程组得到：
+x = (price_chickens - total_chickens) / 5;
+y = (price_chickens - total_chickens) / 3;
+z = total_chickens - x - y;
+
+disp(&amp;quot;公鸡：&amp;quot;, x, &amp;quot;只&amp;quot;);
+disp(&amp;quot;母鸡：&amp;quot;, y, &amp;quot;只&amp;quot;);
+disp(&amp;quot;小鸡：&amp;quot;, z, &amp;quot;只&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Zig 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-zig&#34;&gt;const std = @import(&amp;quot;std&amp;quot;);
+
+pub fn main() void 
+{
+   var price_chickens = 100; // 100元
+   var total_chickens = 100; // 购买100只鸡
+
+   var x = solve(price_chickens, total_chickens, 5);
+   var y = solve(price_chickens, total_chickens, 3);
+   var z = total_chickens - x - y;
+
+   std.debug.print(&amp;quot;公鸡：{}只\n&amp;quot;, .{x});
+   std.debug.print(&amp;quot;母鸡：{}只\n&amp;quot;, .{y});
+   std.debug.print(&amp;quot;小鸡：{}只\n&amp;quot;, .{z});
+}
+
+pub fn solve(price_chickens: i32, total_chickens: i32, cost: i32) i32 
+{
+   if (price_chickens == 0) 
+   {
+       return 0;
+   }
+   var chickens = total_chickens - 1;
+   var cost_per_chicken = cost;
+   var remaining_price = price_chickens - (chickens * cost_per_chicken);
+   if (remaining_price &amp;gt;= 0) 
+   {
+       return chickens + solve(remaining_price, total_chickens, cost);
+   } 
+   else 
+   {
+       return 0;
+   }
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这个程序首先定义了购买鸡的总金额和鸡的总数量，然后通过递归函数来计算公鸡、母鸡和小鸡的数量。最后，使用std.debug.print函数输出结果。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;约瑟夫环&#34;&gt;约瑟夫环&lt;/h3&gt;
+&lt;p&gt;在某一款游戏中，曾有一个幸运儿的头衔，需要进入指定房间，完成任务即可获得。
+任务规则如下：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;例如：现在进入了 六名玩家，所有人需要坐在围成一个圆的凳子上，被碰到的玩家视为淘汰。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;给他们标记为 1-6 号
+1碰2、3碰4、5碰6;
+1碰3、5碰1、5获得。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;现在假设共有38名玩家进入该房间开始游戏，这些人之中，有一个叫 收藏者 的玩家，我们应该让他坐在哪个位置，才能获得该头衔。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Python 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def josephus(n, m):
+    people = list(range(1, n + 1))
+    index = 0
+    while len(people) &amp;gt; 1:
+        index = (index + m - 1) % len(people)
+        del people[index]
+    return people[0]
+
+n = 38
+m = 2
+result = josephus(n, m)
+print(&amp;quot;收藏者的位置：&amp;quot;, result)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;MATLAB 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-matlab&#34;&gt;function result = josephus(n, m)
+   people = 1:n;
+   index = 0;
+   while ~isempty(people)
+       index = (index + m - 1) % length(people);
+       people(index) = [];
+   end
+   result = people(1);
+end
+
+n = 38;
+m = 2;
+[result] = josephus(n, m);
+disp(&amp;quot;收藏者的位置：&amp;quot;, result);
+&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;C语言 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c&#34;&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;stdlib.h&amp;gt;
+
+int josephus(int n, int m) 
+{
+   int *people = (int *) malloc(n * sizeof(int));
+   if (people == NULL) 
+   {
+       printf(&amp;quot;Error: malloc failed\n&amp;quot;);
+       exit(1);
+   }
+   for (int i = 0; i &amp;lt; n; i++) 
+   {
+       people[i] = i + 1;
+   }
+   int index = 0;
+   while (n &amp;gt; 1) 
+   {
+       index = (index + m - 1) % n;
+       free(people[index]);
+       n--;
+   }
+   return people[0];
+}
+
+int main() 
+{
+   int n = 38;
+   int m = 2;
+   int result = josephus(n, m);
+   printf(&amp;quot;收藏者的位置：%d\n&amp;quot;, result);
+   return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;解释圆周率&#34;&gt;解释圆周率&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Python 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import math
+
+# 计算圆周率
+pi = math.pi
+
+# 输出圆周率
+print(&amp;quot;圆周率（π）的值为：&amp;quot;, pi)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;这段代码首先导入了 Python 的 &lt;code&gt;math&lt;/code&gt; 模块，然后使用该模块中的 &lt;code&gt;pi&lt;/code&gt; 函数计算圆周率。最后，我们通过 &lt;code&gt;print&lt;/code&gt; 函数输出计算得到的圆周率。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;C++ 演示代码&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code class=&#34;language-C++&#34;&gt;#include &amp;lt;iostream&amp;gt;
+using namespace std;
+
+int main() 
+{
+   int sum = 0; // 用于存储循环计算结果
+   int i; // 循环计数器
+
+   for (i = 1; i &amp;lt;= 1000000; i++) // 循环1000000次
+   { 
+       if (i % 2 == 1) 
+       { // 如果i是奇数
+           sum += 4.0 * (1.0 / i); // 累加4/i
+       } 
+       else // 如果i是偶数
+       { 
+           sum -= 4.0 * (1.0 / i); // 减去4/i
+       }
+   }
+
+   cout &amp;lt;&amp;lt; &amp;quot;圆周率约为：&amp;quot; &amp;lt;&amp;lt; sum &amp;lt;&amp;lt; endl; // 输出结果
+
+   return 0;
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

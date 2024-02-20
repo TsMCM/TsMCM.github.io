@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>逻辑思维 | 『数学建模协会』</title>
+    <link>https://example.com/tags/%E9%80%BB%E8%BE%91%E6%80%9D%E7%BB%B4/</link>
+      <atom:link href="https://example.com/tags/%E9%80%BB%E8%BE%91%E6%80%9D%E7%BB%B4/index.xml" rel="self" type="application/rss+xml" />
+    <description>逻辑思维</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© 2010-2022 本站版权所有 [鄂ICP备05113319号](https://beian.miit.gov.cn/)</copyright><lastBuildDate>Sun, 13 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>逻辑思维</title>
+      <link>https://example.com/tags/%E9%80%BB%E8%BE%91%E6%80%9D%E7%BB%B4/</link>
+    </image>
+    
+    <item>
+      <title>多想</title>
+      <link>https://example.com/post/%E5%A4%9A%E6%83%B3/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/%E5%A4%9A%E6%83%B3/</guid>
+      <description>&lt;iframe src=&#34;//player.bilibili.com/player.html?aid=430299701&amp;bvid=BV1XG411G7rE&amp;cid=826054226&amp;page=1&#34; scrolling=&#34;no&#34; width=&#34;640px&#34; height=&#34;490px&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

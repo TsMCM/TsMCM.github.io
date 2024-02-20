@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>招新活动 | 『数学建模协会』</title>
+    <link>https://example.com/tags/%E6%8B%9B%E6%96%B0%E6%B4%BB%E5%8A%A8/</link>
+      <atom:link href="https://example.com/tags/%E6%8B%9B%E6%96%B0%E6%B4%BB%E5%8A%A8/index.xml" rel="self" type="application/rss+xml" />
+    <description>招新活动</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© 2010-2022 本站版权所有 [鄂ICP备05113319号](https://beian.miit.gov.cn/)</copyright><lastBuildDate>Wed, 11 Oct 2023 12:00:48 +0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>招新活动</title>
+      <link>https://example.com/tags/%E6%8B%9B%E6%96%B0%E6%B4%BB%E5%8A%A8/</link>
+    </image>
+    
+    <item>
+      <title>2023年数学建模协会招新活动</title>
+      <link>https://example.com/talk/2023zhaoxing/</link>
+      <pubDate>Wed, 11 Oct 2023 12:00:48 +0800</pubDate>
+      <guid>https://example.com/talk/2023zhaoxing/</guid>
+      <description>&lt;p&gt;数学建模协会招新以线上、线下同时开展：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;线下招新地点位于 湖北交通职业技术学院藏龙岛校区东苑6栋对面&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;线下招新时间：10月13日-10月14日&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在线下招新结束后将全面转为五天(10.13-10.17)的线上招新。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;在数学建模协会招新群 新进成员达到80人时 或 10月14日20点整，将2023年招新活动改为推荐制。(推荐制结束时间根据后续安排拟定)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

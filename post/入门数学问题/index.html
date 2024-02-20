@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+    
+  
+  <meta name="description" content="入门数学问题通常用于初学者入门阶段的学习，帮助初学者在学习数学及编程语言时建立基本的数学概念和解决问题的方法。">
+
+  
+  <link rel="alternate" hreflang="zh-Hans" href="https://example.com/post/%E5%85%A5%E9%97%A8%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cutive+Mono%7CLora:400,700%7CRoboto:400,700&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu534237e774e5d014113af8955e6a2747_16737_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu534237e774e5d014113af8955e6a2747_16737_192x192_fill_lanczos_center_3.png">
+
+  <link rel="canonical" href="https://example.com/post/%E5%85%A5%E9%97%A8%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/">
+
+  
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="『数学建模协会』">
+  <meta property="og:url" content="https://example.com/post/%E5%85%A5%E9%97%A8%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/">
+  <meta property="og:title" content="入门数学问题 | 『数学建模协会』">
+  <meta property="og:description" content="入门数学问题通常用于初学者入门阶段的学习，帮助初学者在学习数学及编程语言时建立基本的数学概念和解决问题的方法。"><meta property="og:image" content="https://example.com/post/%E5%85%A5%E9%97%A8%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/featured.webp">
+  <meta property="twitter:image" content="https://example.com/post/%E5%85%A5%E9%97%A8%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/featured.webp"><meta property="og:locale" content="zh-Hans">
+  
+    
+      <meta property="article:published_time" content="2023-11-14T20:57:20&#43;08:00">
+    
+    <meta property="article:modified_time" content="2023-11-14T20:57:20&#43;08:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.com/post/%E5%85%A5%E9%97%A8%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/"
+  },
+  "headline": "入门数学问题",
+  
+  "image": [
+    "https://example.com/post/%E5%85%A5%E9%97%A8%E6%95%B0%E5%AD%A6%E9%97%AE%E9%A2%98/featured.webp"
+  ],
+  
+  "datePublished": "2023-11-14T20:57:20+08:00",
+  "dateModified": "2023-11-14T20:57:20+08:00",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Authors"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "『数学建模协会』",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.com/images/icon_hu534237e774e5d014113af8955e6a2747_16737_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "入门数学问题通常用于初学者入门阶段的学习，帮助初学者在学习数学及编程语言时建立基本的数学概念和解决问题的方法。"
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>入门数学问题 | 『数学建模协会』</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>搜索</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="搜索..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">『数学建模协会』</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="切换导航">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">『数学建模协会』</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>文章</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>事件</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#talks"><span>活动</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>题库</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/courses/"><span>更多</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>交流</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>入门数学问题</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    2023-11-14
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 分钟阅读时长
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h3 id="鸡兔同笼">鸡兔同笼</h3>
+<p>鸡兔同笼，共35只头，94只脚，问鸡兔各多少？</p>
+<blockquote>
+<p>Python 演示代码</p>
+</blockquote>
+<pre><code class="language-python">heads = 35  # 头的数量
+feet = 94   # 脚的数量
+
+for chickens in range(feet//2 + 1):
+   total_feet = chickens * 2 + (heads - chickens) * 4
+   if total_feet == feet:
+       print(f&quot;鸡的数量：{chickens}&quot;)
+       print(f&quot;兔子的数量：{(heads - chickens)}&quot;)
+       break
+</code></pre>
+<p>这段代码首先定义了头的数量（heads）和脚的数量（feet）。然后，我们使用一个for循环来枚举鸡的数量，其中鸡的数量不能超过头的数量。在循环内部，我们计算鸡和兔子的总脚数（total_feet），如果总脚数等于脚的数量，就输出鸡和兔子的数量，并跳出循环。</p>
+<blockquote>
+<p>MATLAB 演示代码</p>
+</blockquote>
+<pre><code class="language-matlab">heads = 35; % 头的数量
+feet = 94; % 脚的数量
+
+for chickens in range(feet/2+1):
+   total_feet = chickens*2 + (heads - chickens)*4;
+   if total_feet == feet
+       fprintf('鸡的数量：%d\n兔子的数量：%d\n', chickens, heads-chickens);
+       break;
+end
+</code></pre>
+<p>我们首先定义了头的数量（heads）和脚的数量（feet）。然后，我们使用一个for循环来枚举鸡的数量，其中鸡的数量不能超过头的数量。在循环内部，我们计算鸡和兔子的总脚数（total_feet），如果总脚数等于脚的数量，就输出鸡和兔子的数量，并跳出循环。</p>
+<blockquote>
+<p>Go 演示代码</p>
+</blockquote>
+<pre><code class="language-go">package main
+
+import (
+    &quot;bufio&quot;
+    &quot;fmt&quot;
+    &quot;os&quot;
+)
+
+func main() 
+{
+    reader := bufio.NewReader(os.Stdin)
+    fmt.Print(&quot;请输入头数：&quot;)
+    text, _ := reader.ReadString('\n')
+    heads, _ := strconv.Atoi(text[:len(text)-1])
+    fmt.Print(&quot;请输入脚数：&quot;)
+    text, _ = reader.ReadString('\n')
+    feet, _ := strconv.Atoi(text[:len(text)-1])
+    chickens, rabbits := solveChickenRabbitProblem(heads, feet)
+    fmt.Printf(&quot;鸡的数量：%d\n兔的数量：%d\n&quot;, chickens, rabbits)
+}
+
+func solveChickenRabbitProblem(heads, feet int) (chickens, rabbits int) 
+{
+    for chickens &lt; heads &amp;&amp; (chickens+rabbits)*2 &lt;= feet 
+    {
+        chickens++
+        rabbits = heads - chickens
+    }
+    return
+}
+</code></pre>
+<hr>
+<h3 id="百钱百鸡">百钱百鸡</h3>
+<p>100元购买100只鸡，公鸡5元一只，母鸡3元一只，小鸡1元三只，如果花完100元，最后能买回多少只公鸡、母鸡、小鸡？</p>
+<blockquote>
+<p>Python 演示代码</p>
+</blockquote>
+<pre><code class="language-python">price_chickens = 100  # 100元
+total_chickens = 100  # 购买100只鸡
+
+# 假设公鸡的数量为x，母鸡的数量为y，小鸡的数量为z
+# 则有：
+# x * 5 + y * 3 + z * 1.0/3 = price_chickens
+# x + y + z = total_chickens
+
+# 解这个方程组得到：
+x = int((price_chickens - total_chickens) / 5)
+y = int((price_chickens - total_chickens) / 3)
+z = int(total_chickens - x - y)
+
+print(&quot;公鸡：&quot;, x, &quot;只&quot;)
+print(&quot;母鸡：&quot;, y, &quot;只&quot;)
+print(&quot;小鸡：&quot;, z, &quot;只&quot;)
+</code></pre>
+<blockquote>
+<p>MATLAB 演示代码</p>
+</blockquote>
+<pre><code class="language-matlab">price_chickens = 100;  % 100元
+total_chickens = 100;  % 购买100只鸡
+
+% 假设公鸡的数量为x，母鸡的数量为y，小鸡的数量为z
+% 则有：
+% x * 5 + y * 3 + z * 1.0/3 = price_chickens
+% x + y + z = total_chickens
+
+% 解这个方程组得到：
+x = (price_chickens - total_chickens) / 5;
+y = (price_chickens - total_chickens) / 3;
+z = total_chickens - x - y;
+
+disp(&quot;公鸡：&quot;, x, &quot;只&quot;);
+disp(&quot;母鸡：&quot;, y, &quot;只&quot;);
+disp(&quot;小鸡：&quot;, z, &quot;只&quot;);
+</code></pre>
+<blockquote>
+<p>Zig 演示代码</p>
+</blockquote>
+<pre><code class="language-zig">const std = @import(&quot;std&quot;);
+
+pub fn main() void 
+{
+   var price_chickens = 100; // 100元
+   var total_chickens = 100; // 购买100只鸡
+
+   var x = solve(price_chickens, total_chickens, 5);
+   var y = solve(price_chickens, total_chickens, 3);
+   var z = total_chickens - x - y;
+
+   std.debug.print(&quot;公鸡：{}只\n&quot;, .{x});
+   std.debug.print(&quot;母鸡：{}只\n&quot;, .{y});
+   std.debug.print(&quot;小鸡：{}只\n&quot;, .{z});
+}
+
+pub fn solve(price_chickens: i32, total_chickens: i32, cost: i32) i32 
+{
+   if (price_chickens == 0) 
+   {
+       return 0;
+   }
+   var chickens = total_chickens - 1;
+   var cost_per_chicken = cost;
+   var remaining_price = price_chickens - (chickens * cost_per_chicken);
+   if (remaining_price &gt;= 0) 
+   {
+       return chickens + solve(remaining_price, total_chickens, cost);
+   } 
+   else 
+   {
+       return 0;
+   }
+}
+</code></pre>
+<p>这个程序首先定义了购买鸡的总金额和鸡的总数量，然后通过递归函数来计算公鸡、母鸡和小鸡的数量。最后，使用std.debug.print函数输出结果。</p>
+<hr>
+<h3 id="约瑟夫环">约瑟夫环</h3>
+<p>在某一款游戏中，曾有一个幸运儿的头衔，需要进入指定房间，完成任务即可获得。
+任务规则如下：</p>
+<blockquote>
+<p>例如：现在进入了 六名玩家，所有人需要坐在围成一个圆的凳子上，被碰到的玩家视为淘汰。</p>
+<blockquote>
+<p>给他们标记为 1-6 号
+1碰2、3碰4、5碰6;
+1碰3、5碰1、5获得。</p>
+</blockquote>
+</blockquote>
+<p>现在假设共有38名玩家进入该房间开始游戏，这些人之中，有一个叫 收藏者 的玩家，我们应该让他坐在哪个位置，才能获得该头衔。</p>
+<blockquote>
+<p>Python 演示代码</p>
+</blockquote>
+<pre><code class="language-python">def josephus(n, m):
+    people = list(range(1, n + 1))
+    index = 0
+    while len(people) &gt; 1:
+        index = (index + m - 1) % len(people)
+        del people[index]
+    return people[0]
+
+n = 38
+m = 2
+result = josephus(n, m)
+print(&quot;收藏者的位置：&quot;, result)
+</code></pre>
+<blockquote>
+<p>MATLAB 演示代码</p>
+</blockquote>
+<pre><code class="language-matlab">function result = josephus(n, m)
+   people = 1:n;
+   index = 0;
+   while ~isempty(people)
+       index = (index + m - 1) % length(people);
+       people(index) = [];
+   end
+   result = people(1);
+end
+
+n = 38;
+m = 2;
+[result] = josephus(n, m);
+disp(&quot;收藏者的位置：&quot;, result);
+</code></pre>
+<blockquote>
+<p>C语言 演示代码</p>
+</blockquote>
+<pre><code class="language-c">#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+int josephus(int n, int m) 
+{
+   int *people = (int *) malloc(n * sizeof(int));
+   if (people == NULL) 
+   {
+       printf(&quot;Error: malloc failed\n&quot;);
+       exit(1);
+   }
+   for (int i = 0; i &lt; n; i++) 
+   {
+       people[i] = i + 1;
+   }
+   int index = 0;
+   while (n &gt; 1) 
+   {
+       index = (index + m - 1) % n;
+       free(people[index]);
+       n--;
+   }
+   return people[0];
+}
+
+int main() 
+{
+   int n = 38;
+   int m = 2;
+   int result = josephus(n, m);
+   printf(&quot;收藏者的位置：%d\n&quot;, result);
+   return 0;
+}
+</code></pre>
+<hr>
+<h3 id="解释圆周率">解释圆周率</h3>
+<blockquote>
+<p>Python 演示代码</p>
+</blockquote>
+<pre><code class="language-python">import math
+
+# 计算圆周率
+pi = math.pi
+
+# 输出圆周率
+print(&quot;圆周率（π）的值为：&quot;, pi)
+</code></pre>
+<p>这段代码首先导入了 Python 的 <code>math</code> 模块，然后使用该模块中的 <code>pi</code> 函数计算圆周率。最后，我们通过 <code>print</code> 函数输出计算得到的圆周率。</p>
+<blockquote>
+<p>C++ 演示代码</p>
+</blockquote>
+<pre><code class="language-C++">#include &lt;iostream&gt;
+using namespace std;
+
+int main() 
+{
+   int sum = 0; // 用于存储循环计算结果
+   int i; // 循环计数器
+
+   for (i = 1; i &lt;= 1000000; i++) // 循环1000000次
+   { 
+       if (i % 2 == 1) 
+       { // 如果i是奇数
+           sum += 4.0 * (1.0 / i); // 累加4/i
+       } 
+       else // 如果i是偶数
+       { 
+           sum -= 4.0 * (1.0 / i); // 减去4/i
+       }
+   }
+
+   cout &lt;&lt; &quot;圆周率约为：&quot; &lt;&lt; sum &lt;&lt; endl; // 输出结果
+
+   return 0;
+}
+</code></pre>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="">入门教程</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"没有找到结果","placeholder":"搜索...","results":"搜索结果"};
+      const content_type = {
+        'post': "文章",
+        'project': "项目",
+        'publication' : "出版物",
+        'talk' : "演讲"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.4979a4733046a588a29a8a2628ea43b5.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2010-2022 本站版权所有 
+<a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">鄂ICP备05113319号</a> &middot; 
+
+
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">引用</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 复制
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 下载
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

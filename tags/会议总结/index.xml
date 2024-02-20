@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>会议总结 | 『数学建模协会』</title>
+    <link>https://example.com/tags/%E4%BC%9A%E8%AE%AE%E6%80%BB%E7%BB%93/</link>
+      <atom:link href="https://example.com/tags/%E4%BC%9A%E8%AE%AE%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml" />
+    <description>会议总结</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© 2010-2022 本站版权所有 [鄂ICP备05113319号](https://beian.miit.gov.cn/)</copyright><lastBuildDate>Fri, 02 Jun 2023 01:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>会议总结</title>
+      <link>https://example.com/tags/%E4%BC%9A%E8%AE%AE%E6%80%BB%E7%BB%93/</link>
+    </image>
+    
+    <item>
+      <title>数学建模协会会议总结</title>
+      <link>https://example.com/project/23-6-2huiyi/</link>
+      <pubDate>Fri, 02 Jun 2023 01:00:00 +0000</pubDate>
+      <guid>https://example.com/project/23-6-2huiyi/</guid>
+      <description>&lt;p align=&#34;left&#34;&gt;提出人：强晨晨&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;机器人模型计划：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;  它是基于Koishi制作，对于以编辑好的文案可正确的回答，也可以进行简单的对网址的信息抓取，但当前只是离线状态还不清楚可能存在的未知bug和其它问题，它的定位就是代替群(QQ)里的助手，增加效率。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个程序好玩的地方是可以接入GPT中，进行专项训练后可以对理论概念用文本的形式呈现。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;调整&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;增加协会内部的新血，积极筛选有基础和兴趣爱好的朋友充实这里，再对内部进行各方面的优化调整，将协会的资源最大化的传承和分享。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;头企鹅计划：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;协会内部增加核心成员，让他们作为下一届接班进行培养(其他成员如果想学习什么内容，同样传授)。在制定阶段计划时不制定妄想(不可实现)的废计划，核心成员不收 思维麻木、无创新能力、纸上谈兵 的成员。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在每年寒假前一个月左右进行接班人选举&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;考核试验&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;从之前协会经验中再次推行考试内容，可以从中更好的了解学生的不足，针对训练。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;资源整合方案&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;对现有资源和成员的学习方法、技巧，持续更新的学习宝库。
+对内容题库的持续更新，可采用借鉴与创新的方法，尽量创新。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下一届会长，对该会议总结的评价&lt;/p&gt;
+&lt;p align=&#34;right&#34;&gt;参会人员：熊一鸣、强晨晨、尹梦婷、何鑫、梁国玺&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
